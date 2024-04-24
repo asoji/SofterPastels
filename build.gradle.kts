@@ -145,6 +145,7 @@ sourceSets {
 
 fun getModVersion(): String {
     val modVersion = project.property("mod_version")
+    val buildId = System.getenv("GITHUB_RUN_NUMBER")
 
     // If a git repo can't be found, grgit won't work, this non-null check exists so you don't run grgit stuff without a git repo
     if (grgit != null) {
@@ -156,8 +157,13 @@ fun getModVersion(): String {
 
         // jan 11 - temp commit out dirty flag, caused github actions produced jar to be mark dirty somehow
         // will prob look at later. i dont fuckin know why
+        // bandaid solution to not have github actions produced jars be `dirty`
         if (!grgit.status().isClean()) {
-            id += "-dirty"
+            if (buildId != null) {
+                id += ""
+            } else {
+                id += "-dirty"
+            }
         }
         // ex: 1.0.0+rev.91949fa or 1.0.0+rev.91949fa-dirty
         return "${modVersion}-rev.${id}"
