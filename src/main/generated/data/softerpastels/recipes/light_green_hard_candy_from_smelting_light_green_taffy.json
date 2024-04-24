@@ -7,5 +7,7 @@
   "ingredient": {
     "item": "softerpastels:light_green_taffy"
   },
-  "result": "softerpastels:light_green_hard_candy"
+  "result": {
+    "id": "softerpastels:light_green_hard_candy"
+  }
 }

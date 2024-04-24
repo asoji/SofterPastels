@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:white_pastel_powder_block"
-            ]
+            "items": "softerpastels:white_pastel_powder_block"
           }
         ]
       },

@@ -7,5 +7,7 @@
   "ingredient": {
     "item": "softerpastels:magenta_pastel_powder_block"
   },
-  "result": "softerpastels:magenta_glass"
+  "result": {
+    "id": "softerpastels:magenta_glass"
+  }
 }

@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:stick"
-            ]
+            "items": "minecraft:stick"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:string"
-            ]
+            "items": "minecraft:string"
           }
         ]
       },
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:white_cotton_candy"
-            ]
+            "items": "softerpastels:white_cotton_candy"
           }
         ]
       },
@@ -47,9 +41,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:white_powder"
-            ]
+            "items": "softerpastels:white_powder"
           }
         ]
       },

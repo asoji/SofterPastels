@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:purple_fence_gate"
-            ]
+            "items": "softerpastels:purple_fence_gate"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:purple_pastel_block"
-            ]
+            "items": "softerpastels:purple_pastel_block"
           }
         ]
       },
@@ -29,9 +25,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:stick"
-            ]
+            "items": "minecraft:stick"
           }
         ]
       },

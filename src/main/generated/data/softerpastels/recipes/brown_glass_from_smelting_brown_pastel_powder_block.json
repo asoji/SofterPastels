@@ -7,5 +7,7 @@
   "ingredient": {
     "item": "softerpastels:brown_pastel_powder_block"
   },
-  "result": "softerpastels:brown_glass"
+  "result": {
+    "id": "softerpastels:brown_glass"
+  }
 }

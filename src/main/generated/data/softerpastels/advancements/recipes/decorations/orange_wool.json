@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:orange_powder"
-            ]
+            "items": "softerpastels:orange_powder"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:orange_wool"
-            ]
+            "items": "softerpastels:orange_wool"
           }
         ]
       },
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:white_wool"
-            ]
+            "items": "softerpastels:white_wool"
           }
         ]
       },

@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_glass"
-            ]
+            "items": "softerpastels:yellow_glass"
           }
         ]
       },
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_glass_pane"
-            ]
+            "items": "softerpastels:yellow_glass_pane"
           }
         ]
       },

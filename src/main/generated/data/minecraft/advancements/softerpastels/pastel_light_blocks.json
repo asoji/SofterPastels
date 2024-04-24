@@ -1,0 +1,188 @@
+{
+  "parent": "minecraft:softerpastels/pastel_blocks",
+  "criteria": {
+    "black_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:black_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blue_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:blue_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "brown_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:brown_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gray_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:gray_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "green_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:green_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_blue_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_blue_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_gray_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_gray_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_green_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_green_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_red_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_red_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "magenta_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:magenta_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "orange_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:orange_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purple_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:purple_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "red_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:red_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "white_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:white_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "yellow_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:yellow_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.softerpastels.pastel_lights.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "softerpastels:purple_light"
+    },
+    "title": {
+      "translate": "advancement.softerpastels.pastel_lights.title"
+    }
+  },
+  "requirements": [
+    [
+      "white_light",
+      "light_red_light",
+      "red_light",
+      "orange_light",
+      "yellow_light",
+      "light_green_light",
+      "green_light",
+      "light_blue_light",
+      "blue_light",
+      "purple_light",
+      "magenta_light",
+      "brown_light",
+      "light_gray_light",
+      "gray_light",
+      "black_light"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

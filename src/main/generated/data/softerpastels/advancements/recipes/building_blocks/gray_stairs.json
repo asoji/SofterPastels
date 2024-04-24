@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:gray_pastel_block"
-            ]
+            "items": "softerpastels:gray_pastel_block"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:gray_stairs"
-            ]
+            "items": "softerpastels:gray_stairs"
           }
         ]
       },

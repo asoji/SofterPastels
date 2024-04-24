@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:glowstone"
-            ]
+            "items": "minecraft:glowstone"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:green_light"
-            ]
+            "items": "softerpastels:green_light"
           }
         ]
       },
@@ -29,9 +25,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:green_powder"
-            ]
+            "items": "softerpastels:green_powder"
           }
         ]
       },

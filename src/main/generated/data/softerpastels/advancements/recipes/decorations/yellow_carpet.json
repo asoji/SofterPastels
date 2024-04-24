@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_carpet"
-            ]
+            "items": "softerpastels:yellow_carpet"
           }
         ]
       },
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_wool"
-            ]
+            "items": "softerpastels:yellow_wool"
           }
         ]
       },

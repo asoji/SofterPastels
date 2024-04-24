@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:stick"
-            ]
+            "items": "minecraft:stick"
           }
         ]
       },
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_fence"
-            ]
+            "items": "softerpastels:yellow_fence"
           }
         ]
       },
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_pastel_block"
-            ]
+            "items": "softerpastels:yellow_pastel_block"
           }
         ]
       },

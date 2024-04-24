@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:light_gray_carpet"
-            ]
+            "items": "softerpastels:light_gray_carpet"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:light_gray_wool"
-            ]
+            "items": "softerpastels:light_gray_wool"
           }
         ]
       },

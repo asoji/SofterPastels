@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:softerpastels/pastel_hard_candies",
+  "criteria": {
+    "regretful_cotton_candy": {
+      "conditions": {
+        "item": {
+          "items": "softerpastels:black_cotton_candy"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "regretful_hard_candy": {
+      "conditions": {
+        "item": {
+          "items": "softerpastels:black_hard_candy"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "regretful_taffy": {
+      "conditions": {
+        "item": {
+          "items": "softerpastels:black_taffy"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.softerpastels.regretful_candy.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "softerpastels:black_cotton_candy"
+    },
+    "title": {
+      "translate": "advancement.softerpastels.regretful_candy.title"
+    }
+  },
+  "requirements": [
+    [
+      "regretful_cotton_candy",
+      "regretful_hard_candy",
+      "regretful_taffy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

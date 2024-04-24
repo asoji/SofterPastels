@@ -1,0 +1,188 @@
+{
+  "parent": "minecraft:softerpastels/root",
+  "criteria": {
+    "black_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:black_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blue_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:blue_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "brown_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:brown_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gray_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:gray_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "green_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:green_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_blue_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_blue_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_gray_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_gray_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_green_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_green_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_red_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_red_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "magenta_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:magenta_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "orange_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:orange_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purple_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:purple_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "red_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:red_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "white_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:white_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "yellow_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:yellow_pastel_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.softerpastels.pastel_blocks.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "softerpastels:blue_pastel_block"
+    },
+    "title": {
+      "translate": "advancement.softerpastels.pastel_blocks.title"
+    }
+  },
+  "requirements": [
+    [
+      "white_pastel_block",
+      "light_red_pastel_block",
+      "red_pastel_block",
+      "orange_pastel_block",
+      "yellow_pastel_block",
+      "light_green_pastel_block",
+      "green_pastel_block",
+      "light_blue_pastel_block",
+      "blue_pastel_block",
+      "purple_pastel_block",
+      "magenta_pastel_block",
+      "brown_pastel_block",
+      "light_gray_pastel_block",
+      "gray_pastel_block",
+      "black_pastel_block"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

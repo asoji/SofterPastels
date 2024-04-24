@@ -24,6 +24,7 @@ import gay.asoji.innerpastels.datagen.RecipeGenerators.registerSmeltingPastelGla
 import gay.asoji.innerpastels.datagen.RecipeGenerators.registerSmeltingPastelHardCandy
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider
+import net.minecraft.core.HolderLookup
 import net.minecraft.data.recipes.RecipeOutput
 import net.minecraft.world.item.Items
 import net.minecraft.world.level.ItemLike
@@ -32,8 +33,9 @@ import one.devos.nautical.softerpastels.common.SofterPastelsItems
 import one.devos.nautical.softerpastels.common.blocks.GlassBlocks
 import one.devos.nautical.softerpastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelColoredPowderItem
 import one.devos.nautical.softerpastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelPowderBaseItem
+import java.util.concurrent.CompletableFuture
 
-class SofterPastelsRecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
+class SofterPastelsRecipeProvider(output: FabricDataOutput, registriesFuture: CompletableFuture<HolderLookup.Provider>?) : FabricRecipeProvider(output, registriesFuture) {
     // i was forced against my own will to make a List<ItemLike> for a smelting recipe that only neeeds... 🥁🥁🥁
     // 1. fucking. item. [as of right now]
     // but then again once the sand gets added i guess this comes in handy because now 2 different blocks can make

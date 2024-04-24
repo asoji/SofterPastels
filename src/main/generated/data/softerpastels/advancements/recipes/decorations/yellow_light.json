@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:glowstone"
-            ]
+            "items": "minecraft:glowstone"
           }
         ]
       },
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_light"
-            ]
+            "items": "softerpastels:yellow_light"
           }
         ]
       },
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_powder"
-            ]
+            "items": "softerpastels:yellow_powder"
           }
         ]
       },

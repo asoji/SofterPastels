@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:magenta_dye"
-            ]
+            "items": "minecraft:magenta_dye"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:magenta_powder"
-            ]
+            "items": "softerpastels:magenta_powder"
           }
         ]
       },
@@ -29,9 +25,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:powder"
-            ]
+            "items": "softerpastels:powder"
           }
         ]
       },

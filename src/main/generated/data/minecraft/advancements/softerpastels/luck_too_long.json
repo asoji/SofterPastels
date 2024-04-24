@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:softerpastels/pastel_hard_candies",
+  "criteria": {
+    "luck_too_long": {
+      "conditions": {
+        "item": {
+          "items": "softerpastels:green_hard_candy"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.softerpastels.luck_too_long.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "softerpastels:green_hard_candy"
+    },
+    "title": {
+      "translate": "advancement.softerpastels.luck_too_long.title"
+    }
+  },
+  "requirements": [
+    [
+      "luck_too_long"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

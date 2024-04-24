@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "pastel_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "softerpastels:textures/block/white_pastel_powder_block.png",
+    "description": {
+      "translate": "advancement.softerpastels.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "softerpastels:powder"
+    },
+    "title": {
+      "translate": "advancement.softerpastels.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "pastel_powder"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,187 @@
+{
+  "parent": "minecraft:softerpastels/pastel_candies",
+  "criteria": {
+    "black_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:black_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blue_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:blue_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "brown_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:brown_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gray_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:gray_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "green_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:green_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_blue_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_blue_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_gray_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_gray_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_green_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_green_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_red_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_red_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "magenta_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:magenta_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "orange_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:orange_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purple_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:purple_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "red_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:red_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "white_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:white_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "yellow_hard_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:yellow_hard_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.softerpastels.pastel_hard_candies.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "softerpastels:yellow_hard_candy"
+    },
+    "title": {
+      "translate": "advancement.softerpastels.pastel_hard_candies.title"
+    }
+  },
+  "requirements": [
+    [
+      "white_hard_candy",
+      "light_red_hard_candy",
+      "red_hard_candy",
+      "orange_hard_candy",
+      "yellow_hard_candy",
+      "light_green_hard_candy",
+      "green_hard_candy",
+      "light_blue_hard_candy",
+      "blue_hard_candy",
+      "purple_hard_candy",
+      "magenta_hard_candy",
+      "brown_hard_candy",
+      "light_gray_hard_candy",
+      "gray_hard_candy",
+      "black_hard_candy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

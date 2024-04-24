@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:green_glass"
-            ]
+            "items": "softerpastels:green_glass"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:green_glass_pane"
-            ]
+            "items": "softerpastels:green_glass_pane"
           }
         ]
       },

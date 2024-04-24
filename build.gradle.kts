@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.pm20.util.archivesName
 
 plugins {
-    kotlin("jvm") version "1.9.0"
+    kotlin("jvm") version "1.9.20-RC"
     `maven-publish`
     java
 
@@ -24,6 +24,9 @@ repositories {
     maven { url = uri("https://maven.parchmentmc.org") }
     maven { url = uri("https://ueaj.dev/maven") }
     maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots") }
+    maven { url = uri("https://jitpack.io") }
+    maven { url = uri("https://raw.githubusercontent.com/kotlin-graphics/mary/master") }
+    maven("")
 }
 
 dependencies {
@@ -31,7 +34,7 @@ dependencies {
 
     mappings(loom.layered {
         officialMojangMappings()
-        parchment("org.parchmentmc.data:parchment-1.20.3:2023.12.31@zip")
+//        parchment("org.parchmentmc.data:parchment-1.20.3:2023.12.31@zip")
     })
 
     //Fabric
@@ -43,7 +46,7 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
-    include(modImplementation("gay.asoji:innerpastels:1.0.2+build.22")!!)
+    include(modImplementation("gay.asoji:innerpastels:1.0.4+build.37+branch.kt.1.20.5.main")!!)
     include(modImplementation("gay.asoji:fmw:1.0.0+build.8")!!)
 }
 
@@ -57,18 +60,18 @@ tasks.processResources {
 }
 
 tasks.withType<JavaCompile>().configureEach {
-    options.release.set(17)
+    options.release.set(21)
 }
 
 java {
     withSourcesJar()
 
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
 }
 
 tasks.jar {

@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:white_wool"
-            ]
+            "items": "softerpastels:white_wool"
           }
         ]
       },
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_powder"
-            ]
+            "items": "softerpastels:yellow_powder"
           }
         ]
       },
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_wool"
-            ]
+            "items": "softerpastels:yellow_wool"
           }
         ]
       },

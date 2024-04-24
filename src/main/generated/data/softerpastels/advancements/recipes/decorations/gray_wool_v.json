@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:gray_powder"
-            ]
+            "items": "softerpastels:gray_powder"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:gray_wool"
-            ]
+            "items": "softerpastels:gray_wool"
           }
         ]
       },
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:white_wool"
-            ]
+            "items": "minecraft:white_wool"
           }
         ]
       },

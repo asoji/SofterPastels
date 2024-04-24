@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:magenta_taffy"
-            ]
+            "items": "softerpastels:magenta_taffy"
           }
         ]
       },

@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:light_red_pastel_block"
-            ]
+            "items": "softerpastels:light_red_pastel_block"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:light_red_slab"
-            ]
+            "items": "softerpastels:light_red_slab"
           }
         ]
       },

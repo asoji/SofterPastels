@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:glass"
-            ]
+            "items": "minecraft:glass"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:magenta_glass"
-            ]
+            "items": "softerpastels:magenta_glass"
           }
         ]
       },
@@ -29,9 +25,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:magenta_powder"
-            ]
+            "items": "softerpastels:magenta_powder"
           }
         ]
       },

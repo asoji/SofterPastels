@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:orange_carpet"
-            ]
+            "items": "softerpastels:orange_carpet"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:orange_wool"
-            ]
+            "items": "softerpastels:orange_wool"
           }
         ]
       },

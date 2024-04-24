@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:gravel"
-            ]
+            "items": "minecraft:gravel"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:sand"
-            ]
+            "items": "minecraft:sand"
           }
         ]
       },
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_pastel_powder_block"
-            ]
+            "items": "softerpastels:yellow_pastel_powder_block"
           }
         ]
       },
@@ -47,9 +41,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_powder"
-            ]
+            "items": "softerpastels:yellow_powder"
           }
         ]
       },

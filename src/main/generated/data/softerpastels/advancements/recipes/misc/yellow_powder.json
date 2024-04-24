@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:powder"
-            ]
+            "items": "softerpastels:powder"
           }
         ]
       },
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:yellow_dye"
-            ]
+            "items": "minecraft:yellow_dye"
           }
         ]
       },
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:yellow_powder"
-            ]
+            "items": "softerpastels:yellow_powder"
           }
         ]
       },

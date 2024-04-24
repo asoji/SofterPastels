@@ -1,0 +1,352 @@
+{
+  "parent": "minecraft:softerpastels/root",
+  "criteria": {
+    "black_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:black_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "black_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:black_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blue_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:blue_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blue_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:blue_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "brown_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:brown_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "brown_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:brown_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gray_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:gray_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gray_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:gray_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "green_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:green_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "green_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:green_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_blue_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_blue_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_blue_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_blue_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_gray_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_gray_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_gray_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_gray_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_green_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_green_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_green_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_green_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_red_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_red_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_red_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_red_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "magenta_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:magenta_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "magenta_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:magenta_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "orange_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:orange_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "orange_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:orange_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purple_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:purple_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purple_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:purple_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "red_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:red_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "red_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:red_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "white_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:white_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "white_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:white_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "yellow_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:yellow_cotton_candy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "yellow_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:yellow_taffy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.softerpastels.pastel_candies.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "softerpastels:orange_taffy"
+    },
+    "title": {
+      "translate": "advancement.softerpastels.pastel_candies.title"
+    }
+  },
+  "requirements": [
+    [
+      "white_taffy",
+      "light_red_taffy",
+      "red_taffy",
+      "orange_taffy",
+      "yellow_taffy",
+      "light_green_taffy",
+      "green_taffy",
+      "light_blue_taffy",
+      "blue_taffy",
+      "purple_taffy",
+      "magenta_taffy",
+      "brown_taffy",
+      "light_gray_taffy",
+      "gray_taffy",
+      "black_taffy",
+      "white_cotton_candy",
+      "light_red_cotton_candy",
+      "red_cotton_candy",
+      "orange_cotton_candy",
+      "yellow_cotton_candy",
+      "light_green_cotton_candy",
+      "green_cotton_candy",
+      "light_blue_cotton_candy",
+      "blue_cotton_candy",
+      "purple_cotton_candy",
+      "magenta_cotton_candy",
+      "brown_cotton_candy",
+      "light_gray_cotton_candy",
+      "gray_cotton_candy",
+      "black_cotton_candy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

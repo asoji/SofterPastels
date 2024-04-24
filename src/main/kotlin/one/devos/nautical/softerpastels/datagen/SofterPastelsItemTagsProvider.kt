@@ -3,7 +3,7 @@ package one.devos.nautical.softerpastels.datagen
 import gay.asoji.innerpastels.tags.InnerPastelsItemTags
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider
-import net.fabricmc.fabric.api.tag.convention.v1.ConventionalItemTags
+import net.fabricmc.fabric.api.tag.convention.v2.ConventionalItemTags
 import net.minecraft.core.HolderLookup
 import net.minecraft.tags.ItemTags
 import one.devos.nautical.softerpastels.common.SofterPastelsBlocks

@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "softerpastels:black_pastel_powder_block"
-            ]
+            "items": "softerpastels:black_pastel_powder_block"
           }
         ]
       },

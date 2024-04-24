@@ -2,10 +2,12 @@ package one.devos.nautical.softerpastels.datagen
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider
+import net.minecraft.core.HolderLookup
 import one.devos.nautical.softerpastels.common.SofterPastelsBlocks
 import one.devos.nautical.softerpastels.common.blocks.GlassBlocks
+import java.util.concurrent.CompletableFuture
 
-class SofterPastelsLootTableProvider(dataOutput: FabricDataOutput) : FabricBlockLootTableProvider(dataOutput) {
+class SofterPastelsLootTableProvider(dataOutput: FabricDataOutput, registryLookup: CompletableFuture<HolderLookup.Provider>?) : FabricBlockLootTableProvider(dataOutput, registryLookup) {
     override fun generate() {
         dropSelf(SofterPastelsBlocks.WHITE_PASTEL_BLOCK)
         dropSelf(SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK)
