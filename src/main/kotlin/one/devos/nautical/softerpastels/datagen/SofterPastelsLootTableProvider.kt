@@ -7,7 +7,7 @@ import one.devos.nautical.softerpastels.common.SofterPastelsBlocks
 import one.devos.nautical.softerpastels.common.blocks.GlassBlocks
 import java.util.concurrent.CompletableFuture
 
-class SofterPastelsLootTableProvider(dataOutput: FabricDataOutput, registryLookup: CompletableFuture<HolderLookup.Provider>?) : FabricBlockLootTableProvider(dataOutput, registryLookup) {
+class SofterPastelsLootTableProvider(dataOutput: FabricDataOutput, registryLookup: CompletableFuture<HolderLookup.Provider>) : FabricBlockLootTableProvider(dataOutput, registryLookup) {
     override fun generate() {
         dropSelf(SofterPastelsBlocks.WHITE_PASTEL_BLOCK)
         dropSelf(SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK)
