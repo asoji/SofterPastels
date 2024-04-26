@@ -1,8 +1,8 @@
 package one.devos.nautical.softerpastels.common.blocks
 
-import gay.asoji.innerpastels.blocks.registerBlockItem
-import gay.asoji.innerpastels.blocks.registerGlassBlock
-import gay.asoji.innerpastels.blocks.registerGlassPaneBlock
+import gay.asoji.innerpastels.register.registerBlockItem
+import gay.asoji.innerpastels.register.registerGlassBlock
+import gay.asoji.innerpastels.register.registerGlassPaneBlock
 import net.minecraft.world.item.BlockItem
 import net.minecraft.world.item.DyeColor
 import net.minecraft.world.level.block.Block

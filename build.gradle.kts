@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.pm20.util.archivesName
 
 plugins {
-    kotlin("jvm") version "1.9.20-RC"
+    kotlin("jvm") version "1.9.23"
     `maven-publish`
     java
 
@@ -46,7 +46,7 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
-    include(modImplementation("gay.asoji:innerpastels:1.0.4+build.37+branch.kt.1.20.5.main")!!)
+    include(modImplementation("gay.asoji:innerpastels:1.1.0+rev.a588fcb+branch.kt.1.20.5.main")!!)
     include(modImplementation("gay.asoji:fmw:1.0.0+build.8")!!)
 }
 

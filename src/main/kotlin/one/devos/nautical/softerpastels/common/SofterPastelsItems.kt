@@ -1,11 +1,11 @@
 package one.devos.nautical.softerpastels.common
 
-import gay.asoji.innerpastels.foods.RegisterFood.registerCottonCandy
-import gay.asoji.innerpastels.foods.RegisterFood.registerHardCandy
-import gay.asoji.innerpastels.foods.RegisterFood.registerIceCream
-import gay.asoji.innerpastels.foods.RegisterFood.registerTaffy
 import gay.asoji.innerpastels.items.CandyTooltipItem
-import gay.asoji.innerpastels.items.RegisterItems.registerRegularItem
+import gay.asoji.innerpastels.register.RegisterFood.registerCottonCandy
+import gay.asoji.innerpastels.register.RegisterFood.registerHardCandy
+import gay.asoji.innerpastels.register.RegisterFood.registerIceCream
+import gay.asoji.innerpastels.register.RegisterFood.registerTaffy
+import gay.asoji.innerpastels.register.RegisterItems.registerRegularItem
 import net.minecraft.world.effect.MobEffects
 import net.minecraft.world.item.Item
 import one.devos.nautical.softerpastels.SofterPastels
