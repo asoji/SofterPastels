@@ -21,6 +21,7 @@
     "post_cap",
     "post_lantern",
     "lattice",
-    "transom"
+    "transom",
+    "curve"
   ]
 }
