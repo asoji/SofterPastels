@@ -61,8 +61,19 @@ body:
       options:
         - "1.0.0+build.10"
         - "1.0.4+build.37+branch.kt.1.20.5.main"
+        - "1.1.0+rev.a588fcb+branch.kt.1.20.5.main"
     validations:
       required: false
+
+  - type: dropdown
+    attributes:
+      label: Mod Loader
+      description: What mod loader are you using?
+      options:
+        - "Fabric"
+        - "Quilt"
+    validations:
+      required: true
 
   - type: dropdown
     attributes:
@@ -71,6 +82,7 @@ body:
       options:
         - "1.20.4"
         - "1.20.5"
+        - "1.20.6"
     validations:
       required: true
 
