@@ -230,5 +230,20 @@ class SofterPastelsAdvancementProvider(output: FabricDataOutput, registryLookup:
             .addCriterion("regretful_hard_candy", ConsumeItemTrigger.TriggerInstance.usedItem(SofterPastelsItems.BLACK_HARD_CANDY))
             .addCriterion("regretful_taffy", ConsumeItemTrigger.TriggerInstance.usedItem(SofterPastelsItems.BLACK_TAFFY))
             .save(consumer, SofterPastels.MOD_ID + "/regretful_candy")
+
+        val noChocolateIceCreamForYou: AdvancementHolder = Advancement.Builder.advancement()
+            .parent(rootAdvancement)
+            .display(
+                SofterPastelsItems.CHOCOLATE_ICE_CREAM,
+                Component.translatable("advancement.softerpastels.nochocolateicecreamforyou.title"),
+                Component.translatable("advancement.softerpastels.nochocolateicecreamforyou.description"),
+                null,
+                AdvancementType.CHALLENGE,
+                true,
+                true,
+                false
+            )
+            .addCriterion("chocolate_ice_cream", InventoryChangeTrigger.TriggerInstance.hasItems(SofterPastelsItems.CHOCOLATE_ICE_CREAM))
+            .save(consumer, SofterPastels.MOD_ID + "/no_chocolate_ice_cream_for_you")
     }
 }

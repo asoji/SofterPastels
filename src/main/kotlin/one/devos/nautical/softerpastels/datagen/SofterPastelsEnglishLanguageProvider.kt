@@ -293,6 +293,8 @@ class SofterPastelsEnglishLanguageProvider(dataGenerator: FabricDataOutput, regi
         translationBuilder.add("advancement.softerpastels.regretful_candy.description", "Yeah... that probably made you feel a bit of dread huh...")
         translationBuilder.add("advancement.softerpastels.luck_too_long.title", "Lucky Bites?")
         translationBuilder.add("advancement.softerpastels.luck_too_long.description", "Well... at least you get to feel lucky for 24 minutes.")
+        translationBuilder.add("advancement.softerpastels.nochocolateicecreamforyou.title", "No Chocolate Ice Cream For You")
+        translationBuilder.add("advancement.softerpastels.nochocolateicecreamforyou.description", "It will remain texture-less.")
 
         translationBuilder.add("architecture_extensions.grouped_block.softerpastels.white", "White Pastel")
         translationBuilder.add("architecture_extensions.grouped_block.softerpastels.light_red", "Light Red Pastel")

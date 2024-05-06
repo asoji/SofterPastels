@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:softerpastels/root",
+  "criteria": {
+    "chocolate_ice_cream": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:chocolate_ice_cream"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.softerpastels.nochocolateicecreamforyou.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "softerpastels:chocolate_ice_cream"
+    },
+    "title": {
+      "translate": "advancement.softerpastels.nochocolateicecreamforyou.title"
+    }
+  },
+  "requirements": [
+    [
+      "chocolate_ice_cream"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
