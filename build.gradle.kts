@@ -1,7 +1,5 @@
-import org.jetbrains.kotlin.gradle.plugin.mpp.pm20.util.archivesName
-
 plugins {
-    kotlin("jvm") version "1.9.23"
+    kotlin("jvm") version "2.0.0"
     `maven-publish`
     java
 
@@ -14,7 +12,6 @@ val archivesBaseName = project.property("archives_base_name").toString()
 group = project.property("maven_group")!!
 //version = "${project.property("mod_version")}-rev.${grgit.head().abbreviatedId}"
 version = getModVersion()
-archivesName.set(property("archives_base_name")!! as String)
 
 repositories {
     mavenLocal()
@@ -34,7 +31,7 @@ dependencies {
 
     mappings(loom.layered {
         officialMojangMappings()
-//        parchment("org.parchmentmc.data:parchment-1.20.3:2023.12.31@zip")
+        parchment("org.parchmentmc.data:parchment-1.21:2024.06.23@zip")
     })
 
     //Fabric
@@ -46,7 +43,7 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
-    include(modImplementation("gay.asoji:innerpastels:1.1.0+rev.a588fcb+branch.kt.1.20.5.main")!!)
+    include(modImplementation("gay.asoji:innerpastels:1.1.0+rev.47b6ad9+branch.kt.1.21.imgui-screen-detach")!!)
     include(modImplementation("gay.asoji:fmw:1.0.0+build.8")!!)
 }
 

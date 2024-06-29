@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magenta_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:magenta_glass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magenta_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:magenta_glass_pane"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "softerpastels:magenta_glass_pane_rect"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magenta_glass",
+      "has_magenta_glass_pane"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "softerpastels:magenta_glass_pane_rect"
+    ]
+  }
+}

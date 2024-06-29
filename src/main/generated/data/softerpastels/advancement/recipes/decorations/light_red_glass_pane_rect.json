@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_light_red_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_red_glass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_light_red_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "softerpastels:light_red_glass_pane"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "softerpastels:light_red_glass_pane_rect"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_light_red_glass",
+      "has_light_red_glass_pane"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "softerpastels:light_red_glass_pane_rect"
+    ]
+  }
+}

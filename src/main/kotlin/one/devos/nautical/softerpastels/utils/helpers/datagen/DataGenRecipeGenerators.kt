@@ -25,7 +25,7 @@ object DataGenRecipeGenerators {
             .unlockedBy(getHasName(Items.WHITE_DYE), has(Items.WHITE_DYE))
             .unlockedBy(getHasName(inputPastelGlowingItem), has(inputPastelGlowingItem))
             .unlockedBy(getHasName(SofterPastelsItems.POWDER), has(SofterPastelsItems.POWDER))
-            .save(exporter, SofterPastelsItems.POWDER.toString() + "_" + inputPastelGlowingItem)
+            .save(exporter, SofterPastelsItems.POWDER.toString() + "_" + inputPastelGlowingItem.toString().removePrefix("minecraft:"))
     }
 
     fun registerCraftingPastelColoredPowderItem(

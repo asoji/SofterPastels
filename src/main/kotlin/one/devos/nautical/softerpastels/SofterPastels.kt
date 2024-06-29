@@ -24,15 +24,6 @@ object SofterPastels : ModInitializer {
 
     val LOGGER: Logger = LogManager.getLogger(MOD_NAME)
 
-    // could prob be ridded of tbh, the only place this has ever been used is line 44... i dont even know why this exists, legacy codebase?
-    fun locate(location: String): ResourceLocation {
-        return if (location.contains(":")) {
-            ResourceLocation(location) //probably useful if its from another mod
-        } else {
-            ResourceLocation(MOD_ID, location) //so we can be lazy, or if its not from another mod
-        }
-    }
-
     val SP_ITEM_GROUP: CreativeModeTab = FabricItemGroup.builder()
         .icon { ItemStack(SofterPastelsBlocks.RED_PASTEL_BLOCK) }
         .title(Component.translatable("itemGroup.softerpastels"))
@@ -43,7 +34,7 @@ object SofterPastels : ModInitializer {
         SofterPastelsBlocks.init()
         SofterPastelsItems.init()
 
-        Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, locate("main"), SP_ITEM_GROUP)
+        Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, ResourceLocation.fromNamespaceAndPath(MOD_ID, "main"), SP_ITEM_GROUP)
 
         InnerPastels.registerMods(MOD_ID)
 
