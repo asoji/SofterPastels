@@ -2,7 +2,6 @@ package one.devos.nautical.softerpastels.utils
 
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
-import gay.asoji.innerpastels.crab.CrabInTheCode
 import net.minecraft.world.entity.player.Player
 import one.devos.nautical.softerpastels.SofterPastels
 import java.net.URI

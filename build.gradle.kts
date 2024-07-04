@@ -43,7 +43,7 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
-    include(modImplementation("gay.asoji:innerpastels:1.1.0+rev.47b6ad9+branch.kt.1.21.imgui-screen-detach")!!)
+    include(modImplementation("gay.asoji:innerpastels:1.2.0+rev.3970f99+branch.kt.1.21.main")!!)
     include(modImplementation("gay.asoji:fmw:1.0.0+build.8")!!)
 }
 
