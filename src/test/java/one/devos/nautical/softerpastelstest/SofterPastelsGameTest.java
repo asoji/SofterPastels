@@ -17,7 +17,7 @@ public class SofterPastelsGameTest implements FabricGameTest {
         helper.succeedWhen(() -> {
             helper.assertBlock(new BlockPos(3, 2, 3), (block) -> block == SofterPastelsBlocks.INSTANCE.getLIGHT_RED_PASTEL_BLOCK(), "Expected Light Red Pastel Block");
             helper.assertBlock(new BlockPos(3, 2, 2), (block) -> block == SofterPastelsBlocks.INSTANCE.getLIGHT_GREEN_PASTEL_BLOCK(), "Expected Light Green Pastel Block");
-            helper.assertBlock(new BlockPos(3, 2, 2), (block) -> block == SofterPastelsBlocks.INSTANCE.getLIGHT_BLUE_PASTEL_BLOCK(), "Expected Light Blue Pastel Block");
+            helper.assertBlock(new BlockPos(3, 2, 1), (block) -> block == SofterPastelsBlocks.INSTANCE.getLIGHT_BLUE_PASTEL_BLOCK(), "Expected Light Blue Pastel Block");
         });
     }
 }
