@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "softerpastels",
+  "version": "${version}",
+  "name": "Softer Pastels",
+  "description": "A mod that adds a lot of Pastel-colored blocks, maybe for a softer vibe. Originally from the discontinued \"Pastel Wonderland\".",
+  "authors": [
+    "devOS: Sanity Edition",
+    "Team Nautical"
+  ],
+  "contributors": [
+    "asoji",
+    "CARTER_1234",
+    "Stereo528",
+    "BluSpring",
+    "TropheusJay"
+  ],
+  "contact": {
+    "homepage": "https://devos.one/",
+    "sources": "https://github.com/devOS-Sanity-Edition/SofterPastels",
+    "issues": "https://github.com/devOS-Sanity-Edition/SofterPastels/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/softerpastels/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "one.devos.nautical.softerpastelstest.SofterPastelsTest"
+    ],
+    "fabric-gametest": [
+      "one.devos.nautical.softerpastelstest.SofterPastelsGameTest"
+    ]
+  },
+  "mixins": [
+    "softerpastels.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.11.0+kotlin.2.0.0",
+    "fabricloader": ">=0.15.11",
+    "innerpastels": "*",
+    "minecraft": ">=1.21"
+  }
+}

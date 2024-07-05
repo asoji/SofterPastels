@@ -43,7 +43,7 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
-    include(modImplementation("gay.asoji:innerpastels:1.2.0+rev.a6cb41d+branch.kt.1.21.main")!!)
+    include(modImplementation("gay.asoji:innerpastels:1.2.0+rev.c4cdf76+branch.kt.1.21.main")!!)
 }
 
 // Write the version to the fabric.mod.json
@@ -126,6 +126,26 @@ loom {
                 "-Dfabric-api.datagen.modid=${project.extra["archives_base_name"] as String}"
             )
             runDir("build/datagen")
+        }
+        create("testModClient") {
+            client()
+            name("Test Mod Client")
+            source(sourceSets.getByName("test"))
+            runDir("run/test")
+        }
+        create("testModServer") {
+            server()
+            name("Test Mod Server")
+            source(sourceSets.getByName("test"))
+            runDir("run/test_server")
+        }
+        create("Gametest") {
+            server()
+            name("Test")
+            source(sourceSets.getByName("test"))
+            vmArgs("-Dfabric-api.gametest")
+            vmArgs("-Dfabric-api.gametest.report-file=${project.buildDir}/junit.xml")
+            runDir("run/gametest_server")
         }
     }
 }
