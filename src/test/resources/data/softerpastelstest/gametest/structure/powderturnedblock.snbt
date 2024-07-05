@@ -53,9 +53,9 @@
         {pos: [4, 1, 3], state: "minecraft:bedrock"},
         {pos: [4, 1, 4], state: "minecraft:bedrock"},
         {pos: [0, 2, 0], state: "minecraft:air"},
-        {pos: [0, 2, 1], state: "minecraft:air"},
-        {pos: [0, 2, 2], state: "minecraft:air"},
-        {pos: [0, 2, 3], state: "minecraft:air"},
+        {pos: [0, 2, 1], state: "minecraft:bedrock"},
+        {pos: [0, 2, 2], state: "minecraft:bedrock"},
+        {pos: [0, 2, 3], state: "minecraft:bedrock"},
         {pos: [0, 2, 4], state: "minecraft:air"},
         {pos: [1, 2, 0], state: "minecraft:air"},
         {pos: [1, 2, 1], state: "minecraft:sticky_piston{extended:false,facing:east}"},
@@ -78,9 +78,9 @@
         {pos: [4, 2, 3], state: "minecraft:air"},
         {pos: [4, 2, 4], state: "minecraft:air"},
         {pos: [0, 3, 0], state: "minecraft:air"},
-        {pos: [0, 3, 1], state: "minecraft:air"},
-        {pos: [0, 3, 2], state: "minecraft:air"},
-        {pos: [0, 3, 3], state: "minecraft:air"},
+        {pos: [0, 3, 1], state: "minecraft:redstone_wire{east:none,north:side,power:0,south:side,west:none}"},
+        {pos: [0, 3, 2], state: "minecraft:oak_button{face:floor,facing:east,powered:false}"},
+        {pos: [0, 3, 3], state: "minecraft:redstone_wire{east:none,north:side,power:0,south:side,west:none}"},
         {pos: [0, 3, 4], state: "minecraft:air"},
         {pos: [1, 3, 0], state: "minecraft:air"},
         {pos: [1, 3, 1], state: "minecraft:air"},
@@ -111,6 +111,8 @@
         "softerpastels:light_green_pastel_powder_block",
         "softerpastels:light_red_pastel_powder_block",
         "minecraft:water{level:0}",
-        "minecraft:air"
+        "minecraft:air",
+        "minecraft:redstone_wire{east:none,north:side,power:0,south:side,west:none}",
+        "minecraft:oak_button{face:floor,facing:east,powered:false}"
     ]
 }

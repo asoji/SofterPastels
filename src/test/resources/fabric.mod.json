@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "softerpastels",
+  "id": "softerpastelstest",
   "version": "${version}",
   "name": "Softer Pastels",
   "description": "A mod that adds a lot of Pastel-colored blocks, maybe for a softer vibe. Originally from the discontinued \"Pastel Wonderland\".",
@@ -31,9 +31,6 @@
       "one.devos.nautical.softerpastelstest.SofterPastelsGameTest"
     ]
   },
-  "mixins": [
-    "softerpastels.mixins.json"
-  ],
   "depends": {
     "fabric": "*",
     "fabric-language-kotlin": ">=1.11.0+kotlin.2.0.0",
