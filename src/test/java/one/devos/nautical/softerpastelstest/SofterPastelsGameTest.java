@@ -10,7 +10,7 @@ public class SofterPastelsGameTest implements FabricGameTest {
     // Softer Pastel only need *1* game test, which is fucking funny considering how many hours Jay has been trying to
     // help me and Carter figure out game tests while Carter actively struggled to get a Game Test env setup, which
     // isn't his fault but oof ow ouch owie his legs
-    @GameTest(template = SofterPastelsTest.MOD_ID + ":powderturnedblock", required = true, requiredSuccesses = 3, setupTicks = 5)
+    @GameTest(template = SofterPastelsTest.MOD_ID + ":powderturnedblock", required = true, requiredSuccesses = 3)
     public void powderTurnedBlock(GameTestHelper helper) {
         helper.pressButton(0, 4, 2);
 
