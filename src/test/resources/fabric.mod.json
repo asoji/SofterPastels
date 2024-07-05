@@ -25,10 +25,16 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "one.devos.nautical.softerpastelstest.SofterPastelsTest"
+      {
+        "adapter": "kotlin",
+        "value": "one.devos.nautical.softerpastelstest.SofterPastelsTest"
+      }
     ],
     "fabric-gametest": [
-      "one.devos.nautical.softerpastelstest.SofterPastelsGameTest"
+      {
+        "adapter": "kotlin",
+        "value": "one.devos.nautical.softerpastelstest.SofterPastelsGameTest"
+      }
     ]
   },
   "depends": {
