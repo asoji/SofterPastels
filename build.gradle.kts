@@ -144,7 +144,7 @@ loom {
             name("Test")
             source(sourceSets.getByName("test"))
             vmArgs("-Dfabric-api.gametest")
-            vmArgs("-Dfabric-api.gametest.report-file=${project.buildDir}/junit.xml")
+            vmArgs("-Dfabric-api.gametest.report-file=${project.layout.buildDirectory}/junit.xml")
             runDir("run/gametest_server")
         }
     }

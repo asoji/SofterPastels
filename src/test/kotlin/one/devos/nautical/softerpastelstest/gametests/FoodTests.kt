@@ -3,7 +3,6 @@ package one.devos.nautical.softerpastelstest.gametests
 import net.fabricmc.fabric.api.gametest.v1.FabricGameTest
 import net.minecraft.gametest.framework.GameTest
 import net.minecraft.gametest.framework.GameTestHelper
-import net.minecraft.server.level.ServerPlayer
 import net.minecraft.world.InteractionHand
 import net.minecraft.world.effect.MobEffects
 import net.minecraft.world.item.ItemStack
@@ -11,6 +10,7 @@ import net.minecraft.world.level.GameType
 import one.devos.nautical.softerpastels.common.SofterPastelsItems
 
 class FoodTests : FabricGameTest {
+    // TODO: turn all the tests into just 3 tests, because 3 candy types
     @GameTest(template = FabricGameTest.EMPTY_STRUCTURE, required = true)
     fun consumeWhiteTaffy(helper: GameTestHelper) {
         val player = helper.makeMockPlayer(GameType.SURVIVAL)

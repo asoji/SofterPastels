@@ -4,15 +4,10 @@ import net.fabricmc.fabric.api.gametest.v1.FabricGameTest
 import net.minecraft.core.BlockPos
 import net.minecraft.gametest.framework.GameTest
 import net.minecraft.gametest.framework.GameTestHelper
-import net.minecraft.world.InteractionHand
-import net.minecraft.world.effect.MobEffects
-import net.minecraft.world.item.ItemStack
-import net.minecraft.world.level.GameType
 import net.minecraft.world.level.block.Block
 import one.devos.nautical.softerpastels.common.SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK
 import one.devos.nautical.softerpastels.common.SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK
 import one.devos.nautical.softerpastels.common.SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK
-import one.devos.nautical.softerpastels.common.SofterPastelsItems
 import one.devos.nautical.softerpastelstest.SofterPastelsTest
 
 class BlockTests : FabricGameTest {
