@@ -1,15 +1,21 @@
-package one.devos.nautical.softerpastelstest
+package one.devos.nautical.softerpastelstest.gametests
 
 import net.fabricmc.fabric.api.gametest.v1.FabricGameTest
 import net.minecraft.core.BlockPos
 import net.minecraft.gametest.framework.GameTest
 import net.minecraft.gametest.framework.GameTestHelper
+import net.minecraft.world.InteractionHand
+import net.minecraft.world.effect.MobEffects
+import net.minecraft.world.item.ItemStack
+import net.minecraft.world.level.GameType
 import net.minecraft.world.level.block.Block
 import one.devos.nautical.softerpastels.common.SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK
 import one.devos.nautical.softerpastels.common.SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK
 import one.devos.nautical.softerpastels.common.SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK
+import one.devos.nautical.softerpastels.common.SofterPastelsItems
+import one.devos.nautical.softerpastelstest.SofterPastelsTest
 
-class SofterPastelsGameTest : FabricGameTest {
+class BlockTests : FabricGameTest {
     // Softer Pastel only need *1* game test, which is fucking funny considering how many hours Jay has been trying to
     // help me and Carter figure out game tests while Carter actively struggled to get a Game Test env setup, which
     // isn't his fault but oof ow ouch owie his legs

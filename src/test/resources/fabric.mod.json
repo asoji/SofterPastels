@@ -33,7 +33,11 @@
     "fabric-gametest": [
       {
         "adapter": "kotlin",
-        "value": "one.devos.nautical.softerpastelstest.SofterPastelsGameTest"
+        "value": "one.devos.nautical.softerpastelstest.gametests.BlockTests"
+      },
+      {
+        "adapter": "kotlin",
+        "value": "one.devos.nautical.softerpastelstest.gametests.FoodTests"
       }
     ]
   },
