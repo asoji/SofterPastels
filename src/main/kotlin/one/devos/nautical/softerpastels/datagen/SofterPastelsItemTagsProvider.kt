@@ -12,8 +12,6 @@ import one.devos.nautical.softerpastels.common.blocks.GlassBlocks
 import java.util.concurrent.CompletableFuture
 
 class SofterPastelsItemTagsProvider(output: FabricDataOutput, registriesFuture: CompletableFuture<HolderLookup.Provider>) : FabricTagProvider.ItemTagProvider(output, registriesFuture) {
-
-
     override fun addTags(arg: HolderLookup.Provider) {
         getOrCreateTagBuilder(InnerPastelsItemTags.PASTEL_BLOCKS)
             .add(SofterPastelsBlocks.WHITE_PASTEL_BLOCK.asItem())

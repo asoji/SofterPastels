@@ -15,15 +15,13 @@ version = getModVersion()
 
 repositories {
     mavenLocal()
-    maven { url = uri("https://mvn.devos.one/snapshots") }
-    maven { url = uri("https://maven.terraformersmc.com") }
-    maven { url = uri("https://api.modrinth.com/maven") }
-    maven { url = uri("https://maven.parchmentmc.org") }
-    maven { url = uri("https://ueaj.dev/maven") }
-    maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots") }
-    maven { url = uri("https://jitpack.io") }
-    maven { url = uri("https://raw.githubusercontent.com/kotlin-graphics/mary/master") }
-    maven("")
+    maven("https://mvn.devos.one/snapshots")
+    maven("https://maven.terraformersmc.com")
+    maven("https://api.modrinth.com/maven")
+    maven("https://maven.parchmentmc.org")
+    maven("https://ueaj.dev/maven")
+    maven("https://oss.sonatype.org/content/repositories/snapshots")
+    maven("https://jitpack.io")
 }
 
 dependencies {
@@ -31,7 +29,7 @@ dependencies {
 
     mappings(loom.layered {
         officialMojangMappings()
-        parchment("org.parchmentmc.data:parchment-1.21:2024.06.23@zip")
+        parchment("org.parchmentmc.data:parchment-1.21:2024.07.28@zip")
     })
 
     //Fabric
@@ -43,7 +41,7 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
-    include(modImplementation("gay.asoji:innerpastels:1.2.0+rev.a6cb41d+branch.kt.1.21.main")!!)
+    include(modImplementation("gay.asoji:innerpastels:1.3.2+rev.863e92f+branch.kt.1.21.main")!!)
 }
 
 // Write the version to the fabric.mod.json

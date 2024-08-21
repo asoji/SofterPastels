@@ -1,7 +1,7 @@
 [versions]
 minecraft = "1.21"
 fabric-loader = "0.15.11"
-fabric-api = "0.100.4+1.21"
+fabric-api = "0.102.0+1.21"
 fabric_language_kotlin = "1.11.0+kotlin.2.0.0"
 joml = "1.10.5"
 sodium = "mc1.21-0.5.11"
@@ -26,6 +26,6 @@ dev_mods = [ "joml", "sodium" ]
 dependencies = [ "mod_menu" ]
 
 [plugins]
-fabric_loom = { id = "fabric-loom", version = "1.6-SNAPSHOT" }
+fabric_loom = { id = "fabric-loom", version = "1.7-SNAPSHOT" }
 grgit = { id = "org.ajoberstar.grgit", version = "5.0.0-rc.3" }
 dokka = { id = "org.jetbrains.dokka", version = "1.9.10" }

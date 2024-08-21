@@ -25,7 +25,8 @@ import java.util.function.Supplier;
 
 @Mixin(value = PlayerInfo.class, priority = 1100)
 public class PlayerInfoMixin {
-    private static final ResourceLocation DEV_CAPE = ResourceLocation.fromNamespaceAndPath(SofterPastels.MOD_ID, "textures/misc/cape.png");
+    @Unique
+    private static final ResourceLocation DEV_CAPE = ResourceLocation.tryBuild(SofterPastels.MOD_ID, "textures/misc/cape.png");
     @Shadow
     @Final
     private GameProfile profile;

@@ -24,7 +24,7 @@ class SofterPastelsAdvancementProvider(output: FabricDataOutput, registryLookup:
                 SofterPastelsItems.POWDER,
                 Component.translatable("advancement.softerpastels.root.title"),
                 Component.translatable("advancement.softerpastels.root.description"),
-                ResourceLocation.fromNamespaceAndPath(SofterPastels.MOD_ID, "textures/block/white_pastel_powder_block.png"),
+                ResourceLocation.tryBuild(SofterPastels.MOD_ID, "textures/block/white_pastel_powder_block.png"),
                 AdvancementType.TASK,
                 true,
                 true,

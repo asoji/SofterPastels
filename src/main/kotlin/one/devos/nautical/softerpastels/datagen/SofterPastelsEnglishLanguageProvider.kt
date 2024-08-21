@@ -9,8 +9,7 @@ import one.devos.nautical.softerpastels.common.blocks.GlassBlocks
 import java.util.concurrent.CompletableFuture
 
 
-class SofterPastelsEnglishLanguageProvider(dataGenerator: FabricDataOutput, registriesFuture: CompletableFuture<HolderLookup.Provider>) :
-    FabricLanguageProvider(dataGenerator, "en_us", registriesFuture) {
+class SofterPastelsEnglishLanguageProvider(dataGenerator: FabricDataOutput, registriesFuture: CompletableFuture<HolderLookup.Provider>) : FabricLanguageProvider(dataGenerator, "en_us", registriesFuture) {
     override fun generateTranslations(registryLookup: HolderLookup.Provider, translationBuilder: TranslationBuilder) {
         translationBuilder.add(SofterPastelsBlocks.WHITE_PASTEL_BLOCK, "White Pastel Block")
         translationBuilder.add(SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK, "Light Red Pastel Block")

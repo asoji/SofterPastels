@@ -34,7 +34,7 @@ object SofterPastels : ModInitializer {
         SofterPastelsBlocks.init()
         SofterPastelsItems.init()
 
-        Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, ResourceLocation.fromNamespaceAndPath(MOD_ID, "main"), SP_ITEM_GROUP)
+        Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, ResourceLocation.tryBuild(MOD_ID, "main"), SP_ITEM_GROUP)
 
         InnerPastels.registerMods(MOD_ID)
 

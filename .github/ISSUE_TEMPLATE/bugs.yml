@@ -51,7 +51,10 @@ body:
         - "v0.5.0"
         - "v0.6.0"
         - "v0.7.0"
+        - "v0.7.1"
+        - "v0.7.2"
         - "v0.8.0"
+        - "v0.9.0"
     validations:
       required: true
 
@@ -60,12 +63,14 @@ body:
       label: Inner Pastels Version
       description: What Inner Pastels version was attached? [look in your log for `[SofterPastels] Internal Library Version`]
       options:
+        - "None [Softer Pastels v0.5.0 and lower]"
         - "1.0.0+build.10"
         - "1.0.4+build.37+branch.kt.1.20.5.main"
         - "1.1.0+rev.a588fcb+branch.kt.1.20.5.main"
         - "1.2.0+rev.a6cb41d+branch.kt.1.21.main"
+        - "1.3.2+rev.863e92f+branch.kt.1.21.main"
     validations:
-      required: false
+      required: true
 
   - type: dropdown
     attributes:
@@ -73,7 +78,7 @@ body:
       description: What mod loader are you using?
       options:
         - "Fabric"
-        - "Quilt"
+        - "Quilt [partial support]"
     validations:
       required: true
 
@@ -85,7 +90,7 @@ body:
         - "1.20.4"
         - "1.20.5"
         - "1.20.6"
-        - "1.21"
+        - "1.21 [and 1.21.1]"
     validations:
       required: true
 
